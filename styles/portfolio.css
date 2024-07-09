@@ -32,6 +32,7 @@ nav {
   padding: 17px 24px;
   border-radius: 8px;
   border: 1px solid #0d1321;
+  cursor: pointer;
 }
 
 /* Banner Styles */
@@ -39,10 +40,10 @@ nav {
   background-image: url(../assets/Hero-bg.png);
   background-repeat: repeat;
   height: 652px;
-
   background-position: center;
   background-size: contain;
   text-align: center;
+  margin-bottom: 119px;
 }
 
 .banner-image {
@@ -55,15 +56,17 @@ nav {
   font-size: 48px;
   font-weight: 800;
   margin-bottom: 24px;
+  line-height: 68px;
 }
 
 .banner-description {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 32px;
+  line-height: 26px;
 }
 
-.banner-button {
+.btn-banner {
   color: #ffffff;
   font-weight: 600;
   font-size: 20px;
@@ -71,4 +74,76 @@ nav {
   padding: 21px 24px;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
+}
+
+/* Why Web Development */
+.container-webdev {
+  background-color: rgba(13, 19, 33, 0.02);
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 74px 152px 90px 148px;
+  border-radius: 16px;
+}
+
+.title-webdev {
+  color: #0d1321;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.description-webdev {
+  text-align: center;
+  color: #0d1321;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+
+.card-webdev {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 48px;
+  margin-bottom: 32px;
+  justify-content: space-between;
+}
+
+.card-content-webdev {
+  padding: 20px;
+}
+
+.card-image-webdev img {
+  width: 274px;
+}
+
+.card-title-webdev {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(13, 19, 33, 0.7);
+  margin-bottom: 16px;
+  line-height: 36px;
+}
+
+.card-description-webdev {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(13, 19, 33, 1);
+  line-height: 26px;
+  margin-bottom: 32px;
+}
+
+.btn-webdev {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: white;
+  color: #0d1321;
+  border: 1px solid #0d1321;
+  padding: 12px 20px;
+  border-radius: 0px;
+  cursor: pointer;
 }
