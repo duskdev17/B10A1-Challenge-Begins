@@ -25,6 +25,7 @@ nav {
 }
 
 .btn-navbar {
+  font-family: "Azeret Mono", monospace;
   color: #0d1321;
   font-weight: 600;
   font-size: 20px;
@@ -67,6 +68,7 @@ nav {
 }
 
 .btn-banner {
+  font-family: "Azeret Mono", monospace;
   color: #ffffff;
   font-weight: 600;
   font-size: 20px;
@@ -84,6 +86,7 @@ nav {
   margin: 0 auto;
   padding: 74px 152px 90px 148px;
   border-radius: 16px;
+  margin-bottom: 90px;
 }
 
 .title-webdev {
@@ -138,6 +141,7 @@ nav {
 }
 
 .btn-webdev {
+  font-family: "Azeret Mono", monospace;
   font-size: 20px;
   font-weight: 600;
   background-color: white;
@@ -146,4 +150,38 @@ nav {
   padding: 12px 20px;
   border-radius: 0px;
   cursor: pointer;
+}
+
+/* My Inspiration section styles */
+.container-inspiration {
+  max-width: 1140px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.title-inspiration {
+  font-size: 32px;
+  font-weight: 800;
+  color: #0d1321;
+  margin-bottom: 24px;
+}
+
+.description-inspiration {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 20px;
+  color: #0d1321;
+  margin-bottom: 48px;
+}
+
+.video-container {
+  padding: 32px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  margin-bottom: 151px;
+}
+
+.video-container iframe {
+  border-radius: 16px;
 }
