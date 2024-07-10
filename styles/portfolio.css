@@ -16,7 +16,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 38px 150px 36px 150px;
+  padding: 38px 150px 36px 150px;
 }
 
 .nav-title {
@@ -54,6 +54,7 @@ nav {
 }
 
 .banner-title {
+  color: #0d1321;
   font-size: 48px;
   font-weight: 800;
   margin-bottom: 24px;
@@ -61,6 +62,7 @@ nav {
 }
 
 .banner-description {
+  color: #0d1321;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 32px;
@@ -104,6 +106,8 @@ nav {
   line-height: 26px;
   font-weight: 400;
   margin-bottom: 48px;
+  padding-left: 144px;
+  padding-right: 144px;
 }
 
 .card-webdev {
@@ -150,6 +154,11 @@ nav {
   padding: 12px 20px;
   border-radius: 0px;
   cursor: pointer;
+}
+
+.btn-webdev a {
+  text-decoration: none;
+  color: #0d1321;
 }
 
 /* My Inspiration section styles */
@@ -287,7 +296,6 @@ nav {
 
 .support-content h1 {
   font-size: 32px;
-  
   font-weight: bold;
   margin-bottom: 16px;
 }
@@ -322,4 +330,28 @@ nav {
   color: #0d1321;
   border-radius: 8px;
   cursor: pointer;
+}
+
+/* footer styles */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 39px 150px;
+  border-radius: 16px;
+  background-color: rgba(13, 19, 33, 0.03);
+}
+
+footer p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.social-icons a {
+  margin: 0 24px;
+}
+
+.social-icons img {
+  width: 36px;
+  height: 36px;
 }
