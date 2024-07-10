@@ -29,7 +29,6 @@ nav {
   color: #0d1321;
   font-weight: 600;
   font-size: 20px;
-  background-color: white;
   padding: 17px 24px;
   border-radius: 8px;
   border: 1px solid #0d1321;
@@ -113,7 +112,6 @@ nav {
 .card-webdev {
   display: flex;
   align-items: center;
-  background: #ffffff;
   border-radius: 16px;
   padding: 48px;
   margin-bottom: 32px;
