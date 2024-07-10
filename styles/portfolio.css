@@ -155,7 +155,7 @@ nav {
 /* My Inspiration section styles */
 .container-inspiration {
   max-width: 1140px;
-  margin: 0px auto;
+  margin: auto;
   text-align: center;
 }
 
@@ -170,9 +170,8 @@ nav {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  margin-bottom: 20px;
   color: #0d1321;
-  margin-bottom: 48px;
+  padding: 0px 144px 48px 144px;
 }
 
 .video-container {
@@ -184,4 +183,80 @@ nav {
 
 .video-container iframe {
   border-radius: 16px;
+}
+
+/* My Current Target section styles */
+.container-target {
+  max-width: 1140px;
+  margin: auto;
+  text-align: center;
+}
+
+.title-target {
+  font-size: 32px;
+  font-weight: 800;
+  color: #0d1321;
+  margin-bottom: 24px;
+}
+
+.description-target {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #0d1321;
+  padding: 24px 144px 48px 144px;
+}
+
+.cards-target {
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+}
+
+.card-target {
+  max-width: 364px;
+  border-radius: 16px;
+  padding: 40px;
+  text-align: left;
+  margin-bottom: 111px;
+}
+
+.color1 {
+  background-color: rgba(255, 76, 30, 0.05);
+}
+
+.color2 {
+  background-color: rgba(0, 76, 232, 0.05);
+}
+
+.color3 {
+  background-color: rgba(255, 223, 0, 0.05);
+}
+
+.card-target img {
+  width: 56px;
+  margin-bottom: 24px;
+}
+
+.card-target-title {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 8px;
+  color: #0d1321;
+}
+
+.card-target-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #0d1321;
+  margin-bottom: 24px;
+}
+
+.card-target-link {
+  color: #0d1321;
+  font-size: 16px;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 40px;
 }
