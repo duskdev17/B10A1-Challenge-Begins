@@ -260,3 +260,66 @@ nav {
   font-weight: bold;
   margin-bottom: 40px;
 }
+
+/* Support Section styles */
+.support-section {
+  max-width: 1140px;
+  margin: 0 auto;
+  min-height: 313px;
+  border-radius: 16px;
+  background-color: white;
+  background-image: url(../assets/handshake.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.support-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 313px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 80px;
+}
+
+.support-content h1 {
+  font-size: 32px;
+  
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.support-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-left: 267px;
+  padding-right: 267px;
+  margin-bottom: 24px;
+}
+
+.feedback-form input {
+  font-family: "Azeret Mono", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px;
+  width: 548px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+.feedback-form button {
+  font-family: "Azeret Mono", monospace;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 17px 20px;
+  border: none;
+  background-color: #ffffff;
+  color: #0d1321;
+  border-radius: 8px;
+  cursor: pointer;
+}
